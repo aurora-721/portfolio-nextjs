@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import todovueImg from '../public/assets/projects/todovue.png';
+import ggQuest from '../public/assets/projects/ggQuest.png'
+import vuextodoImg from '../public/assets/projects/vuextodo.png'
+import web3RSVP from '../public/assets/projects/web3RSVP.png'
+import fetchpeople from '../public/assets/projects/fetchpeople.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -18,30 +19,35 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
+            backgroundImg={todovueImg}
+            projectUrl='https://task-tracker-vue-umber.vercel.app/'
+            tech='Vue JS'
           />
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
+            title='Vue To Do App'
+            backgroundImg={web3RSVP}
+            projectUrl='https://web3-rsvp-frontend-starter-gilt.vercel.app/'
+            tech='React, JS, Solidity, The Graph, IPFS, Infura, Polygon, Lens'
 
           />
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
+            title='Vuex To Do App'
+            backgroundImg={vuextodoImg}
+            projectUrl='https://vuextodoapp.vercel.app/'
+            tech='Vue Vuex JS'
 
           />
           <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
+            title='Fetch people'
+            backgroundImg={fetchpeople}
+            projectUrl='https://fetch-people.vercel.app/'
+            tech='Vue JS'
+          />
+          <ProjectItem
+            title='ggQuest'
+            backgroundImg={ggQuest}
+            projectUrl='https://stark-quest.vercel.app/'
+            tech='Vue JS'
           />
         </div>
       </div>
