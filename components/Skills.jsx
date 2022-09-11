@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
-import Html from '../public/assets/skills/html.png';
+import Html from '../public/assets/skills/react.png';
 import Css from '../public/assets/skills/css.png';
-import Javascript from '../public/assets/skills/javascript.png';
+import Javascript from '../public/assets/skills/js.png';
 import ReactImg from '../public/assets/skills/react.png';
-import Tailwind from '../public/assets/skills/tailwind.png';
-import Github from '../public/assets/skills/github1.png';
-import Firebase from '../public/assets/skills/firebase.png';
-import NextJS from '../public/assets/skills/nextjs.png';
+import Tailwind from '../public/assets/skills/vue.png';
+import Github from '../public/assets/skills/python.png';
+import Firebase from '../public/assets/skills/postman.png';
+import NextJS from '../public/assets/skills/sql.png';
 
 const Skills = () => {
   return (
@@ -177,6 +177,21 @@ const Skills = () => {
                 <h3>SQL</h3>
               </div>
             </div>
+          </div>
+          <div className='m-auto'>
+            <Image className='shadow-xl hover:scale-105 ease-in duration-300' src={NextJS} width='88px' height='130px' alt='/' />
+          </div>
+          <div className='m-auto'>
+            <Image className='shadow-xl hover:scale-105 ease-in duration-300' src={NextJS} width='88px' height='130px' alt='/' />
+          </div>
+          <div className='m-auto'>
+            <Image className='shadow-xl hover:scale-105 ease-in duration-300' src={NextJS} width='88px' height='130px' alt='/' />
+          </div>
+          <div className='m-auto'>
+            <Image className='shadow-xl hover:scale-105 ease-in duration-300' src={NextJS} width='88px' height='130px' alt='/' />
+          </div>
+          <div className='m-auto'>
+            <Image className='shadow-xl hover:scale-105 ease-in duration-300' src={NextJS} width='88px' height='130px' alt='/' />
           </div>
         </div>
       </div>
