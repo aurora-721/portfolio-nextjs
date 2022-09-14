@@ -18,13 +18,13 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
+            title='Vue To Do App'
             backgroundImg={todovueImg}
             projectUrl='https://task-tracker-vue-umber.vercel.app/'
             tech='Vue JS'
           />
           <ProjectItem
-            title='Vue To Do App'
+            title='Web 3 RSVP App'
             backgroundImg={web3RSVP}
             projectUrl='https://web3-rsvp-frontend-starter-gilt.vercel.app/'
             tech='React, JS, Solidity, The Graph, IPFS, Infura, Polygon, Lens'
@@ -36,12 +36,6 @@ const Projects = () => {
             projectUrl='https://vuextodoapp.vercel.app/'
             tech='Vue Vuex JS'
 
-          />
-          <ProjectItem
-            title='Fetch people'
-            backgroundImg={fetchpeople}
-            projectUrl='https://fetch-people.vercel.app/'
-            tech='Vue JS'
           />
           <ProjectItem
             title='ggQuest'
