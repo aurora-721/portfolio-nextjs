@@ -10,8 +10,8 @@ import NavLogo from '../public/assets/navLogo.png'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#1f2937');
+  const [navBg, setNavBg] = useState('#fff');
+  const [linkColor, setLinkColor] = useState('#fff');
   // const [position, setPosition] = useState('fixed')
   // const router = useRouter();
 
@@ -47,7 +47,6 @@ const Navbar = () => {
 
   return (
     <div
-      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
@@ -60,15 +59,15 @@ const Navbar = () => {
             <Image
               src={NavLogo}
               alt='/'
-              width='57'
+              width='168'
               height='50'
-              className='cursor-pointer'
+              className='cursor-pointer drop-shadow-lg'
             />
           </a>
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+          <ul style={{ color: `${linkColor}`, opacity: 1 }} className='hidden md:flex'>
+            <li className='ml-10 text-sm bg-opacity-100 uppercase hover:border-b'>
               <Link href='/'>Home</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
@@ -80,7 +79,7 @@ const Navbar = () => {
           </ul>
           {/* Hamburger Icon */}
           <div
-            style={{ color: `${linkColor}` }}
+            style={{ color: `${linkColor}`, opacity: 1 }}
             onClick={handleNav}
             className='md:hidden'
           >
@@ -110,8 +109,8 @@ const Navbar = () => {
                 <a>
                   <Image
                     src={NavLogo}
-                    width='87'
-                    height='35'
+                    width='114'
+                    height='34'
                     alt='/'
                   />
                 </a>
