@@ -21,7 +21,7 @@ const Projects = () => {
           <ProjectItem
             title='I-Tech Web GUI'
             backgroundImg={itechWebGUI}
-            projectUrl='/netflix'
+            projectUrl='/itech'
             tech='Vue Vuex JS'
           />
           <ProjectItem
