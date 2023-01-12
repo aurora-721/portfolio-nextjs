@@ -14,9 +14,9 @@ const Main = () => {
             LET&#39;S MANIFEST A BETTER REALITY
           </p>
           <h1 className='py-4 text-white'>
-            Hi, I&#39;m <span className='text-[#f87eee]'> Aurora</span>
+            Hi, I&#39;m <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#21a8d5] to-[#c116d8]'> Aurora</span>
           </h1>
-          <h1 className='py-2 text-white'>A Software Developer</h1>
+          <h1 className='py-2 text-white'>A Blockchain Developer</h1>
 
           <p className='py-4 text-gray-200 sm:max-w-[70%] m-auto'>
           The world around us as we see it today has been mostly constructed, modified by us. My belief is that if you don't like the current reality work to change it by creating a better one.
@@ -27,7 +27,7 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='mask mask-hexagon bg-black shadow-gray-900 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full bg-gradient-to-r from-[#21a8d5] to-[#214bd5] shadow-[0_5px_10px_-1px_rgba(0,0,0,0.75)] shadow-gray-900  p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaLinkedinIn />
               </div>
             </a>
@@ -36,7 +36,7 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-[0_5px_10px_-1px_rgba(0,0,0,0.75)] shadow-gray-900  p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full bg-gradient-to-r from-[#214bd5] to-[#6921d5] shadow-[0_5px_10px_-1px_rgba(0,0,0,0.75)] shadow-gray-900  p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaGithub />
               </div>
             </a>
@@ -45,7 +45,7 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-900 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full bg-gradient-to-r from-[#6921d5] to-[#c116d8] shadow-[0_5px_10px_-1px_rgba(0,0,0,0.75)] shadow-gray-900  p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaTwitter />
               </div>
             </a>

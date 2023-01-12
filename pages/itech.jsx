@@ -3,6 +3,10 @@ import React from 'react';
 import itechWebGUI from '../public/assets/projects/black-gui2.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import { FaGithub, FaTwitter } from 'react-icons/fa';
+import { IoIosArrowBack } from "react-icons/io";
+
+
 
 const netflix = () => {
   return (
@@ -18,7 +22,7 @@ const netflix = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Instrumentation Technologies </h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h3>Vue / Vuex / Javascript</h3>
         </div>
       </div>
 
@@ -34,22 +38,8 @@ const netflix = () => {
             alt='/'
           />
 
-          <a
-            href='https://github.com/fireclint/netflix-react-tailwind'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-14 mr-8'>Code</button>
-          </a>
-          <a
-            href='https://fireclint.github.io/netflix-react-tailwind/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-14'>Demo</button>
-          </a>
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-900 rounded-xl py-4'>
+        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-900 bg-gradient-to-tr from-[#1570d1] to-[#c116d8] rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid px-5 grid-cols-3 md:grid-cols-1'>
@@ -71,9 +61,26 @@ const netflix = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
-        </Link>
+        <div className='flex m-auto '>
+          <Link
+              href='/#projects'
+              className='px-4'
+            >
+            <div className='rounded-full bg-gradient-to-r from-[#21a8d5] to-[#214bd5] shadow-[0_5px_10px_-1px_rgba(0,0,0,0.75)] shadow-gray-900  p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <IoIosArrowBack />
+            </div>
+          </Link>
+          <a
+            href='https://www.linkedin.com/in/auroramakovac/'
+            target='_blank'
+            rel='noreferrer'
+            className='px-4'
+          >
+            <div className='rounded-full bg-gradient-to-r from-[#214bd5] to-[#6921d5] shadow-[0_5px_10px_-1px_rgba(0,0,0,0.75)] shadow-gray-900  p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <FaGithub />
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   );
