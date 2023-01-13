@@ -28,9 +28,9 @@ const netflix = () => {
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
-          <p>Project</p>
-          <h2 className='p-5'>Overview</h2>
-          <p>
+          <h6 className='px-4'>Project</h6>
+          <h2 className='p-4'>Base Framework for Web GUI</h2>
+          <p className='p-4'>
           This documentation provides an overview of how to create a new project using the web gui framework created with the help of Vue CLI. This documentation helps guide the developer in setting up the code for specific device, gives information on how to use it and gives a quick overview of topics that the developer needs to understand in order to develop additional functionality on top of it.
           </p>
           <Image

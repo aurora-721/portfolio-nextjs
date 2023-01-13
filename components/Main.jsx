@@ -16,7 +16,7 @@ const Main = () => {
           <h1 className='py-4 text-white'>
             Hi, I&#39;m <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#21a8d5] to-[#c116d8]'> Aurora</span>
           </h1>
-          <h1 className='py-2 text-white'>A Blockchain Developer</h1>
+          <h1 className='py-2 text-white'>A Frontend Developer</h1>
 
           <p className='py-4 text-gray-200 sm:max-w-[70%] m-auto'>
           The world around us as we see it today has been mostly constructed, modified by us. My belief is that if you don't like the current reality work to change it by creating a better one.
