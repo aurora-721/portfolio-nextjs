@@ -19,7 +19,7 @@ const Main = () => {
           <h1 className='py-2 text-white'>A Frontend Developer</h1>
 
           <p className='py-4 text-gray-200 sm:max-w-[70%] m-auto'>
-          The world around us as we see it today has been mostly constructed, modified by us. My belief is that if you don't like the current reality work to change it by creating a better one.
+          The world around us as we see it today has been mostly constructed, modified by us. My belief is that if you don&#39;t like the current reality work to change it by creating a better one.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
