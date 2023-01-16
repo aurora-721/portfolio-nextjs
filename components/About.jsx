@@ -8,21 +8,26 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-2 gap-8'>
         <div className='col-span-1'>
-          <p className='uppercase text-xl tracking-widest text-[#7471de]'>
-            About
-          </p>
-          <h2 className='py-4'>My Inspiration</h2>
+          <h2 className='py-4'>Greetings, space travelers!</h2>
 
           <p className='py-2 text-gray-200'>
-          Welcome to my personal portfolio page! 
+          Welcome to my website, a corner of the digital galaxy.
+          </p>
+
+          <p className='py-2 text-gray-200'>
+          As a humble frontend developer, I would like to extend an invitation to you, dear space travelers, to delve deeper into the inner workings of my craft. You have the option to either view my timelog, where you will find a detailed look at my work, or continue scrolling downward, where you shall encounter a selection of my most prized projects, handpicked for your viewing pleasure.
           </p>
           <p className='py-2 text-gray-200'>
-          My name is Aurora Makovac and I am a frontend developer. I am always looking for new challenges and opportunities to grow my skills, and I am excited to share my work with you. Thank you for visiting my portfolio, and please feel free to reach out to me if you have any questions or would like to collaborate on a project.          </p>
-          <Link href='/#projects'>
-            <p className='py-2 text-gray-200 underline cursor-pointer'>
-              Check out some of my latest projects.
-            </p>
-          </Link>
+          Whichever path you choose, I assure you that you shall find a wealth of information and inspiration. So, choose wisely, my friends, and let us journey together into the ever-evolving realm of web development.
+          </p>
+          <p className='py-2 text-gray-200'>
+          Thank you for visiting my portfolio, and please feel free to reach out to me if you have any questions or would like to collaborate on a project.
+          </p>
+          <a href='https://www.linkedin.com/in/auroramakovac/'>
+              <div className='rounded-full bg-gradient-to-r from-[#21a8d5] to-[#214bd5] hover:from-[#2136d5] hover:to-[#4b21d5] shadow-[0_5px_10px_-1px_rgba(0,0,0,0.75)] shadow-gray-900  p-6 cursor-pointer ease-in duration-300'>
+                TIMELOG
+              </div>
+            </a>
         </div>
         <div className='w-full col-span-1 h-auto m-auto shadow-xl shadow-gray-900 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300'>
           <Image src={AboutImg} className='rounded-xl' alt='/' />

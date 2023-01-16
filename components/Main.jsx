@@ -11,15 +11,15 @@ const Main = () => {
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-300'>
-            LET&#39;S MANIFEST A BETTER REALITY
+            Dearest Explorers of the digital realm
           </p>
           <h1 className='py-4 text-white'>
-            Hi, I&#39;m <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#21a8d5] to-[#c116d8]'> Aurora</span>
+            I am <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#21a8d5] to-[#c116d8]'> Aurora</span> a
           </h1>
-          <h1 className='py-2 text-white'>A Frontend Developer</h1>
+          <h1 className='py-2 text-white'>Humble Frontend Developer</h1>
 
           <p className='py-4 text-gray-200 sm:max-w-[70%] m-auto'>
-          The world around us as we see it today has been mostly constructed, modified by us. My belief is that if you don&#39;t like the current reality work to change it by creating a better one.
+            Citing the words from of wisdom from the Encyclopedia Galactica: "The universe as we know it is a tapestry we've woven ourselves. If you don't like the current reality, work to change it by creating a better one."
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
