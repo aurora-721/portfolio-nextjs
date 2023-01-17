@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
 import itechWebGUI from '../public/assets/projects/black-gui2.png';
+import xlogger from '../public/assets/projects/x-logger.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
-import { FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import { IoIosArrowBack } from "react-icons/io";
 
 
@@ -46,21 +47,39 @@ const netflix = () => {
           <p className='p-4'>
           The aim of frontend framework was:
           </p>
-          <ul className='px-4'>
-            <li>- faster GUI creation</li>
-            <li>- better code maintence</li>
-            <li>- easier addition of new functionalities</li>
-            <li>- ease of customizability for new GUIs</li>
-            <li>- fast signal refresh time</li>
-            <li>- quick incorporation of global access to states</li>
-            <li>- refreshing only the basic of what was needed for the user</li>
+          <ul role="list" className='marker:text-sky-400 list-disc space-y-3 text-slate-200 px-12'>
+            <li>faster GUI creation</li>
+            <li>better code maintence</li>
+            <li>easier addition of new functionalities</li>
+            <li>ease of customizability for new GUIs</li>
+            <li>fast signal refresh time</li>
+            <li>quick incorporation of global access to states</li>
+            <li>refreshing only the basic of what was needed for the user</li>
+            <li>better visual feedback</li>
           </ul>
 
           <p className='p-4'>
             I am proud to say that the frontend framework was successfully recieved and is in use today.
           </p>  
-     
+
+          <p className='px-4'>
+            <i>
+              Light themed GUI
+            </i>
+          </p>  
           <Image
+            className='rounded-xl p-4'
+            src={xlogger}
+            alt='/'
+          />
+          <p className='px-4'>
+            <i>
+              Dark themed GUI
+            </i>
+          </p>  
+
+          <Image
+            className='rounded-xl p-4'
             src={itechWebGUI}
             alt='/'
           />

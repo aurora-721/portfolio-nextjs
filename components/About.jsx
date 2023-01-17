@@ -23,11 +23,11 @@ const About = () => {
           <p className='py-2 text-gray-200'>
           Thank you for visiting my portfolio, and please feel free to reach out to me if you have any questions or would like to collaborate on a project.
           </p>
-          <a href='https://www.linkedin.com/in/auroramakovac/'>
-              <div className='rounded-full bg-gradient-to-r from-[#21a8d5] to-[#214bd5] hover:from-[#2136d5] hover:to-[#4b21d5] shadow-[0_5px_10px_-1px_rgba(0,0,0,0.75)] shadow-gray-900  p-6 cursor-pointer ease-in duration-300'>
-                TIMELOG
-              </div>
-            </a>
+          <a href='https://docs-e0pdffuia-aurora-721.vercel.app/'>
+            <div className='rounded-full m-9 text-center bg-gradient-to-r font-bold from-[#0c640c] to-[#21d57b] hover:from-[#0c4c13] hover:to-[#309c56] shadow-[0_5px_10px_-1px_rgba(0,0,0,0.75)] shadow-gray-900  px-2 py-6 cursor-pointer hover:scale-105 ease-in duration-300'>
+              TIMELOG
+            </div>
+          </a>
         </div>
         <div className='w-full col-span-1 h-auto m-auto shadow-xl shadow-gray-900 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300'>
           <Image src={AboutImg} className='rounded-xl' alt='/' />
