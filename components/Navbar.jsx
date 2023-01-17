@@ -71,6 +71,9 @@ const Navbar = () => {
               <Link href='/'>Home</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
+              <Link href='https://docs-e0pdffuia-aurora-721.vercel.app/'>Timelog</Link>
+            </li>
+            <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#skills'>Skills</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
@@ -99,7 +102,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#154d77] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -117,14 +120,14 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
+                className='rounded-full bg-gradient-to-r from-[#2166d5] to-[#6921d5] shadow-lg shadow-gray-900 p-3 cursor-pointer'
               >
                 <AiOutlineClose />
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                LET&#39;S MANIFEST A BETTER REALITY
+                DEAREST EXPLORERS OF THE DIGITAL REALM
               </p>
             </div>
           </div>
@@ -135,6 +138,11 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
+              <a href='https://docs-e0pdffuia-aurora-721.vercel.app/'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                  Timelog
+                </li>
+              </a>
               <Link href='/#skills'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Skills
@@ -147,7 +155,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className='pt-40'>
-              <p className='uppercase tracking-widest text-[#5651e5]'>
+              <p className='uppercase tracking-widest text-[#aa51e5]'>
                 Let&#39;s Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
@@ -156,7 +164,7 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full bg-gradient-to-r from-[#21a8d5] to-[#214bd5] shadow-lg shadow-gray-900 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaLinkedinIn />
                   </div>
                 </a>
@@ -165,7 +173,7 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full bg-gradient-to-r from-[#214bd5] to-[#6921d5] shadow-lg shadow-gray-900 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaGithub />
                   </div>
                 </a>
@@ -174,7 +182,7 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full bg-gradient-to-r from-[#6921d5] to-[#c116d8] shadow-lg shadow-gray-900 p-4 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <FaTwitter />
                   </div>
                 </a>
