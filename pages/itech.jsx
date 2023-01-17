@@ -31,8 +31,35 @@ const netflix = () => {
           <h6 className='px-4'>Project</h6>
           <h2 className='p-4'>Base Framework for Web GUI</h2>
           <p className='p-4'>
-          This documentation provides an overview of how to create a new project using the web gui framework created with the help of Vue CLI. This documentation helps guide the developer in setting up the code for specific device, gives information on how to use it and gives a quick overview of topics that the developer needs to understand in order to develop additional functionality on top of it.
+          While working as a frontend developer at Instrumentation Technology's software development department, I successfully managed to 
+          rewrite 80% of the existing frontend code base and built a frontend framework with extensive documentation.
+          </p>          
+          <p className='p-4'>
+          Instrumentation Technology's core buisness is selling measurment devices for particle accelerators. 
+          The Web GUIs built from the frontend framework served as the main user interface display for users interacting 
+          with Instrumenation Techonology's measurment devices.
+          </p>          
+          <p className='p-4'>
+          The frontend framework had to be designed to allow for ease of customizability and versitility, since each of Instrumentation Technology's devices 
+          incorporates different functionalities and has different applications based on client's wishes. 
+          </p>          
+          <p className='p-4'>
+          The aim of frontend framework was:
           </p>
+          <ul className='px-4'>
+            <li>- faster GUI creation</li>
+            <li>- better code maintence</li>
+            <li>- easier addition of new functionalities</li>
+            <li>- ease of customizability for new GUIs</li>
+            <li>- fast signal refresh time</li>
+            <li>- quick incorporation of global access to states</li>
+            <li>- refreshing only the basic of what was needed for the user</li>
+          </ul>
+
+          <p className='p-4'>
+            I am proud to say that the frontend framework was successfully recieved and is in use today.
+          </p>  
+     
           <Image
             src={itechWebGUI}
             alt='/'
