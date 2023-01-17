@@ -19,7 +19,7 @@ const Main = () => {
           <h1 className='py-2 text-white'>Humble Frontend Developer</h1>
 
           <p className='py-4 text-gray-200 sm:max-w-[70%] m-auto'>
-            Citing the words of wisdom from the Encyclopedia Galactica: "The universe as we know it is a tapestry we've woven ourselves. If you don't like the current reality, work to change it by creating a better one."
+            Citing the words of wisdom from the Encyclopedia Galactica: &quot;The universe as we know it is a tapestry we&apos;ve woven ourselves. If you don&apos;t like the current reality, work to change it by creating a better one.&quot;
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
